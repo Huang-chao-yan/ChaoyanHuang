@@ -1,0 +1,491 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <style type="text/css">
+        a:link {color: #0e0101} /* 未访问的链接 */
+        a:visited {color: #141014} /* 已访问的链接 */
+        a:hover {color: #16e75c} /* 鼠标移动到链接上 */
+        a:active {color: #16e75c} /* 选定的链接 */
+    </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+
+    <style>
+        .prr{
+            background-color: rgb(240, 132, 9);
+            height: 3px;
+            border: 1px;
+        }
+        .happy{
+          width: 1100px;
+          margin-right: 10px auto;
+          border:solid 0px rgb(245, 244, 247);
+          overflow: hidden; /* 避免長方框下面顯示不正常 */
+        }
+        .bdcard{
+          width: 300px;
+          float:left; /* 圖片在左邊 */
+          padding: 20px;
+        }
+        .bdcard img{
+          display: block;
+          width: 100%;
+          height: 100pt;
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+                 /*考虑浏览器兼容性*/
+         -moz-box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+         -webkit-box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+        }
+        .bdtext{
+          float: right;  /* 文字在右邊 */
+          width: 800px;
+          padding: 5px 0px 0px 0px;
+        }
+    </style>
+
+<style>
+    .block img {
+        float: left;
+        margin-right: 10px;
+        width: 412px;
+        height: 208px;
+    }
+    .block p {
+        width: 200px;
+        height: 100px;
+        line-height: 20px;
+        overflow: hidden;
+    }
+</style>
+
+    <!--[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<![endif]-->
+    <title>Chaoyan's homepage</title>
+    <!-- BOOTSTRAP CORE STYLE -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONT AWESOME ICON STYLE -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- CUSTOM STYLE CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <style type="text/css">
+
+        p{
+    
+            text-align:justify;  
+    
+        }
+    
+        p i{
+    
+            display:inline-block;
+    
+            width:100%;
+    
+        }
+    
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 logo-div">
+                        <div class="logo-inner text-center">
+                            <div class="logo-name">
+                                <a href="#">
+                                    <img src="assets/img/5.jpeg" class="rounded"/> 
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-8 header-text-top " id="about">
+
+
+
+                        <h1><strong>Chaoyan Huang (黄朝燕)<strong></h1>
+                        <h2>PhD candidate</h2>
+                        <h2>Department of Mathematics,</h2>
+                        <h2>The Chinese University of Hong Kong,</h2>
+                        <h2>G08, Lady Shaw Building, CUHK, Shatin, New Territories, Hong Kong.</h2>
+						
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END HEADER SECTION-->
+    <div class="info-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                    Email: <strong>Huangchy2020</strong>@163.com, cyhuang@math.cuhk.edu.hk
+                </div>
+                <div class="col-md-2">
+                    <div class="social-link">
+                        <a href="https://github.com/Huang-chao-yan" class="btn btn-default btn-xs"><i class="fa fa-github fa-2x"></i></a>
+                        <!--<a href="#" class="btn btn-default btn-xs"><i class="fa fa-facebook fa-2x"></i></a>
+                        <a href="#" class="btn btn-default btn-xs"><i class="fa fa-linkedin fa-2x"></i></a>-->
+                        <a href="https://scholar.google.com/citations?hl=zh-CN&user=Sun7dRgAAAAJ" class="btn btn-default btn-xs"><i class="fa fa-google-plus fa-2x"></i></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+   <!--<div class="copyrights">Collect from <a href="https://www.webmoban.net"  title="网站模板">网站模板</a></div>--> 
+    <!--END INFO SECTION-->
+    <div id="page_end_html">
+        <!--black cat-->
+        <!--
+        <script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
+        <script>
+          L2Dwidget.init({
+            "model": {
+              jsonPath: "https://unpkg.com/live2d-widget-model-hijiki/assets/hijiki.model.json",
+              "scale": 1
+            },
+            "display": {
+              "position": "right",   // 设置猫咪的上下左右位置
+              "width": 100,
+              "height": 200,
+              "hOffset": 0,
+              "vOffset": 0
+            },
+            "mobile": {
+              "show": true,
+              "scale": 0.5
+            },
+            "react": {
+              "opacityDefault": 1,   // 设置猫咪的透明度
+              "opacityOnHover": 1
+            }
+          });
+          window.onload = function() {
+            $("#live2dcanvas").attr("style", "position: fixed; opacity: 0.7; left: 1100px; bottom: 0px; z-index: 1; pointer-events: none;")
+          }
+        </script>
+        -->
+        <!--white cat-->
+        <script src=" https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
+        <script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js"></script>
+        <script>
+        L2Dwidget.init({
+            "model": {
+                jsonPath: " https://unpkg.com/live2d-widget-model-tororo@1.0.5/assets/tororo.model.json" ,
+                "scale": 1
+            },
+            "display": {
+                "position": "right",
+                "width": 100,
+                "height": 200,
+                "hOffset": -20,
+                "vOffset": -20
+            },
+            "mobile": {
+                "show": true,
+                "scale": 0.5
+            },
+            "react": {
+                "opacityDefault": 0.7,
+                "opacityOnHover": 0.3
+            }
+        });
+        </script>
+        
+        
+      </div>
+      
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-0 ">
+                <div class="blog-post">
+                    <h2><font color= #470bee>Biography</font></h2>
+                    <h4></h4>
+                    <p>
+                        Chaoyan Huang is a PhD candidate of Department of Mathematics, The Chinese University of Hong Kong, 
+                        advised by Prof. <a href="https://www.math.cuhk.edu.hk/~zeng/">Tieyong Zeng</a>. 
+                        She received the M.S. from the school of science, Nanjing University of Posts and Telecommunications (NUPT), in 2022, 
+                        advised by Associate Professor <a href="http://lxy.njupt.edu.cn/2012/1108/c2181a32952/page.htm">Tingting Wu</a>. 
+                        Her research interests include artificial intelligence and its applications to computer vision (e.g., image enhancement, image segmentation) 
+                        and image processing (e.g., image denoising, image restoration, and medical image reconstruction). 
+                        She have published 4 papers in top journals and conferences, including IEEE TMM, PR, IEEE SPL, CVPRW. 
+                        She received several premium awards, including National scholarship, 
+                        the honorary title of "top 10 academic stars" for postgraduates of NUPT, 
+                        outstanding graduates of Jiangsu Province, 
+                        1st prize of the 2021 academic innovation forum for postgraduates in Jiangsu Province of "problem driven mathematics and application", 
+                        2nd Prize of 17th "Huawei Cup" National Graduate Student Mathematical Contest in modeling  (as team leader),
+                        etc.
+                    </p>
+                    <!--<a href="#" class="btn btn-default btn-lg ">Read More <i class="fa fa-angle-right"></i></a>-->
+                </div>
+                <div class="prr"></div>
+
+                <div class="blog-post">
+                    <h2><font color= #470bee>Academic Experiences</font></h2>
+                    <ul><li>The Chinese University of Hong Kong (Shenzhen)     &nbsp&nbsp&nbsp   ---- May. 1, 2022 -- Jul. 31, 2022<br/>
+                        Research assistant <br/>
+                        Topic: Image segmentation<br/>
+                        Supervisor: Associate Professor <a href="https://mypage.cuhk.edu.cn/academics/wangdong/">Dong Wang</a></li>
+                    </ul>
+                    <ul><li>The Chinese University of Hong Kong     &nbsp&nbsp&nbsp   ---- Jun. 28, 2021 -- Aug. 14, 2021<br/>
+                        Visiting student<br/>
+                        Topic: Summer Research Placement Programme<br/>
+                        Supervisor: Professor <a href="https://www.math.cuhk.edu.hk/~zeng/">Tieyong Zeng</a></li>
+                    </ul>
+                    <ul><li>Anqing No.14 Middle School    &nbsp&nbsp&nbsp     ---- Oct. 2018 -- Dec. 2018<br/>
+                        Junior high school math teacher<br/>
+                        Topic: Internship<br/>
+                        Supervisor: Laiyang Jin</li>
+                    </ul>
+                    <ul><li>Yangzhou University     &nbsp&nbsp&nbsp     ---- Jul. 2018<br/>
+                        Summer camp participants<br/>
+                        Topic: Summer Camp<br/>
+                        Manager: The College of Mathematical Science</li>
+                    </ul>
+
+                </div>
+
+                <div class="prr"></div>
+
+                <div class="blog-post">
+                    <h2><font color= #470bee>Honors and Awards</font></h2>
+                    <ul>
+                        <li> Award on honorary title of <a href="https://ygb.njupt.edu.cn/2022/0507/c3790a220503/page.htm">outstanding graduates</a> of Jiangsu Province &nbsp&nbsp&nbsp   ---- Jun. 2022</li>
+                        <li> Award on honorary title of <a href="http://ygb.njupt.edu.cn/_upload/article/files/49/bc/7fcad52a4202b0c09ab5de3f8ec3/740a38b1-1118-4dbf-a2d8-628512f6a1fb.doc">outstanding graduates</a> of NUPT &nbsp&nbsp&nbsp   ---- Mar. 2022</li>
+                        <li> Award on honorary title of <a href="http://ygb.njupt.edu.cn/_upload/article/files/f7/fd/3b643dfb4a158494a8fb8eb5e4cd/08803338-f684-4397-9791-8846620aa4a2.docx">'top 10 academic stars'</a> for postgraduates of NUPT &nbsp&nbsp&nbsp   ---- Dec. 2021</li>
+                        <li> First prize of the <a href="http://www.jsiam.js.cn/portal/yysxxh/noticedetail.action?typename=tzgg&id=9284">2021 academic innovation forum for postgraduates</a> in Jiangsu Province of 'problem driven mathematics and application' &nbsp&nbsp&nbsp   ---- Dec. 2021</li>
+                        <li> <a href="http://ygb.njupt.edu.cn/_upload/article/files/6e/c3/496aec5545658facc579334882ab/3080a2df-4579-478c-bde9-30992a5a6147.doc">National scholarship</a>  &nbsp&nbsp&nbsp   ---- Nov. 2021</li>
+                        <li> Award on honorary title of <a href="https://ygb.njupt.edu.cn/_upload/article/files/92/3a/4bd1d8cc4b99af73296cfce9882e/a36adde0-f86a-4174-8cd2-fd034118029e.pdf">outstanding postgraduates</a> of NUPT &nbsp&nbsp&nbsp   ---- Nov. 2021</li>
+                        <li> Award on <a href="https://ygb.njupt.edu.cn/_upload/article/files/90/5f/129f451649c4bcdc2bb7e3fd8269/17f19fd7-827b-4d82-a334-b845d70917fa.pdf">first-class scholarship</a> of NUPT  &nbsp&nbsp&nbsp   ---- Nov. 2021</li>
+                        <li> Third prize of 2021 (4th) National College Student <a href="https://m.saikr.com/contest/notice_detail/8057">Mathematics Competition</a> Online Challenge, Mathematics Group  &nbsp&nbsp&nbsp   ---- Jul. 2021</li>
+                        <li> Third Prize of 2021 (2nd) Preliminary Contest of the National College Students' <a href="http://yywz.52jingsai.com/index/index/publicity/certificate/3/page/55">Language and Writing Ability Competition</a>   &nbsp&nbsp&nbsp   ---- Jun. 2021</li>
+                        <li> Second Prize of <a href="https://www.tipdm.org/u/cms/www/202012/22095237uw2r.pdf">'Greater Bay Area Cup'</a> Guangdong-Hong Kong-Macao Financial Mathematical Modeling Competition in 2020  (as team leader) &nbsp&nbsp&nbsp   ---- Dec. 2020</li>
+                        <li> Second Prize of 17th <a href="https://cpipc.acge.org.cn//cw/detail/4/2c9088a67597479f0176753856661398">'Huawei Cup'</a> National Graduate Student Mathematical Contest in modeling (as team leader, problem D) &nbsp&nbsp&nbsp   ---- Nov. 2020</li>
+                        <li> Award on <a href="https://ygb.njupt.edu.cn/2020/1105/c3790a174403/page.htm"> first-class scholarship</a> of NUPT  &nbsp&nbsp&nbsp   ---- Nov. 2020</li>
+                        <li> Award on honorary title of <a href="https://ygb.njupt.edu.cn/_upload/article/files/a9/1d/bb33c01e4905bd781aaabea5307f/2badceaf-fa08-41f6-a110-9206e2766255.doc">outstanding postgraduates</a> of NUPT  &nbsp&nbsp&nbsp   ---- Oct. 2020</li>
+                        <li> Second Prize of 2nd Jiangsu Province Graduate Student <a href="https://www.tipdm.org/u/cms/www/202008/12221807vq3j.pdf">Mathematical Modeling</a> Scientific Research Innovation Practice Contest  (as team leader)   &nbsp&nbsp&nbsp   ---- Aug. 2020</li>
+                        <li> Third Prize of 2020 (3rd) <a href="http://zqb2020.52jingsai.com/price.php">China Youth Cup</a> National College Students Mathematical Contest in Modeling, Graduate Group  (as team leader)   &nbsp&nbsp&nbsp   ---- Jul. 2020</li>
+                        <li> Award on third-class scholarship of NUPT    &nbsp&nbsp&nbsp   ---- Nov. 2019</li>
+                        <li> School-level merit student    &nbsp&nbsp&nbsp   ---- Dec. 2017</li>
+                        <li> Award on school-level second-class scholarship    &nbsp&nbsp&nbsp   ---- Dec. 2017</li>
+
+                    </ul>
+                </div>
+                <div class="prr"></div>
+
+                <div class="blog-post">
+                    <h2><font color= #470bee>Publications</font></h2>
+                <div class="happy">
+                    <div class="bdcard">
+                      <img src="assets/img/qsvtv0708.png" alt="TMM" />
+                    </div>
+                    <div class="bdtext">
+                      <p><a href="https://ieeexplore.ieee.org/document/9524459">Quaternion-based dictionary learning and Saturation-Value total variation regularization for color image restoration</a><br>
+                        <font size="4" color="black">Chaoyan Huang</font>, Michael K. Ng, Tingting Wu<sup>&#8727</sup>, and Tieyong Zeng.<br>
+                        IEEE Transactions on Multimedia (IEEE TMM), 2021.<br>
+                        <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9524459" class="btn btn-default btn-lg ">Paper</a> 
+                        <a href="https://github.com/Huang-chao-yan/QD-SV-TV_code" class="btn btn-default btn-lg ">Codes</a> 
+                    </p>
+                    </div>
+                  </div>
+
+                  <div class="happy">
+                    <div class="bdcard">
+                      <img src="assets/img/QWNNM.png" alt="PR" />
+                    </div>
+                    <div class="bdtext">
+                      <p><a href="https://www.sciencedirect.com/science/article/pii/S0031320322001467">Quaternion-based weighted nuclear norm minimization for color image restoration</a><br>
+                        <font size="4" color="black">Chaoyan Huang</font>, ZhiLi, YubingLiu, TingtingWu<sup>&#8727</sup>, TieyongZeng.<br>
+                        Pattern Recognition (PR), 2022.<br>
+                        <a href="https://reader.elsevier.com/reader/sd/pii/S0031320322001467?token=8CC1A209D1260D4E14689AD08E04307516E50A27374181316417E9B9F16D53E60270B24DA71D17DA39E111E6C9D72C8F&originRegion=us-east-1&originCreation=20220601070328" 
+                        class="btn btn-default btn-lg ">Paper</a>
+                        <a href="https://github.com/Huang-chao-yan/QWNNM" class="btn btn-default btn-lg ">Codes</a> 
+                    </p>
+                    </div>
+                  </div>
+
+                  <div class="happy">
+                    <div class="bdcard">
+                      <img src="assets/img/qenhance2.png" alt="SPL" />
+                    </div>
+                    <div class="bdtext">
+                      <p><a href="https://ieeexplore.ieee.org/document/9795102">Quaternion screened Poisson equation for low-light image enhancement</a><br>
+                        <font size="4" color="black">Chaoyan Huang</font>, Yingying Fang, Tingting Wu<sup>&#8727</sup>, Tieyong Zeng and Yonghua Zeng.<br>
+                        IEEE Signal Processing Letters (SPL), 2022.<br>
+                        <a href="https://ieeexplore.ieee.org/document/9795102" 
+                        class="btn btn-default btn-lg ">Paper</a> 
+                        <a href="https://github.com/Huang-chao-yan/Qenhencement" class="btn btn-default btn-lg ">Codes</a> 
+                    </p>
+                    </div>
+                  </div>
+
+                  <div class="happy">
+                    <div class="bdcard">
+                      <img src="assets/img/pqstv2.png" alt="PQSTV" />
+                    </div>
+                    <div class="bdtext">
+                      <p><a href="#">Total variation based pure quaternion dictionary learning method for color image denoising</a><br>
+                        Tingting Wu, <font size="4" color="black">Chaoyan Huang</font>, Zhengmeng Jin, Zhigang Jia, Michael K. Ng<sup>&#8727</sup>.<br>
+                        International Journal of Numerical Analysis and Modeling (IJNAM), 2022.<br>
+                        <a href="#" 
+                        class="btn btn-default btn-lg ">Paper</a> &nbsp&nbsp&nbsp
+                    </p>
+                    </div>
+                  </div>
+
+                  <div class="happy">
+                    <div class="bdcard">
+                      <img src="assets/img/transformer.png" alt="CVPRW" />
+                    </div>
+                    <div class="bdtext">
+                      <p><a href="https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/html/Lu_Transformer_for_Single_Image_Super-Resolution_CVPRW_2022_paper.html">Transformer for single image super-resolution</a><br>
+                        Zhisheng Lu<sup>&#8224</sup>, Juncheng Li<sup>&#8224</sup>, Hong Liu<sup>&#8727</sup>, <font size="4" color="black">Chaoyan Huang</font>, Linlin Zhang, Tieyong Zeng.<br>
+                        The Conference on Computer Vision and Pattern Recognition Workshop (CVPR Workshop), 2022.<br>
+                        <a href="https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Lu_Transformer_for_Single_Image_Super-Resolution_CVPRW_2022_paper.pdf" 
+                        class="btn btn-default btn-lg ">Paper</a> 
+                        <a href="https://junchenglee.com/projects/ESRT/" class="btn btn-default btn-lg ">Homepage</a> 
+                        <a href="https://github.com/luissen/ESRT" class="btn btn-default btn-lg ">Codes</a> 
+                    </p>
+                    </div>
+                  </div>
+
+                  <div class="happy">
+                    <div class="bdcard">
+                      <img src="assets/img/jia.png" alt="Jia" />
+                    </div>
+                    <div class="bdtext">
+                      <p><a href="https://r.cnki.net/kcms/detail/detail.aspx?filename=JSJY2021S2042&dbcode=CFJD&dbname=CFJD2021&v=MjQ4NTQ5QlpvUitDMzg0emg0WG5EMExUZzJYMmhzeEZyQ1VSN2lmWWVadUZ5emxXNzdJTHo3QmQ3RzRITkN2clk=">Cauchy noise and blur restoration algorithm based on deep learning priors</a><br>
+                        Shilong Jia, Wei Li, <font size="4" color="black">Chaoyan Huang</font>, Tingting Wu<sup>&#8727</sup>.<br>
+                        Journal of Computer Applications, (Chinese) 2021.<br>
+                        <a href="https://r.cnki.net/kcms/detail/detail.aspx?filename=JSJY2021S2042&dbcode=CFJD&dbname=CFJD2021&v=MjQ4NTQ5QlpvUitDMzg0emg0WG5EMExUZzJYMmhzeEZyQ1VSN2lmWWVadUZ5emxXNzdJTHo3QmQ3RzRITkN2clk=" 
+                        class="btn btn-default btn-lg ">Paper</a> &nbsp&nbsp
+                    </p>
+                    </div>
+                  </div>
+
+                  <div class="happy">
+                    <div class="bdcard">
+                      <img src="assets/img/ma.png" alt="Ma" />
+                    </div>
+                    <div class="bdtext">
+                      <p><a href="https://cf.cnki.net/kcms/detail/detail.aspx?filename=XTYD20220426002&dbcode=XWCJ&dbname=XWCTLKCAPJLAST&v=">A color image denoising method combining pure quaternion representation and dictionary learning </a><br>
+                        Yonghua Zeng, Junyao Ma, <font size="4" color="black">Chaoyan Huang</font>, Zhihui Mao, Tingting Wu<sup>&#8727</sup>.<br>
+                        Systems Engineering and Electronics, (Chinese) 2022.<br>
+                        <a href="https://kns.cnki.net/kcms/detail/11.2422.TN.20220426.1812.006.html" 
+                        class="btn btn-default btn-lg ">Paper</a> &nbsp&nbsp
+                    </p>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="prr"></div>
+
+                <div class="blog-post">
+                    <h2><font color= #470bee>Patents</font></h2>
+                    <li> Tingting Wu, <font size="3" color="black">Chaoyan Huang</font>, Xingmin Han, Wei Li, <a href="http://epub.cnipa.gov.cn/cred/CN111754430B">'A method of color image denoising based on pure quaternion matrix dictionary learning'</a>, Nanjing University of Posts and Telecommunications, No. ZL202010549088.8, Jun. 16, 2020, public No. CN111754430A, Oct. 09, 2020, authorized No. CN111754430B, Aug. 02, 2022. </li>
+                    <li> Xiaoyu Gu, Tingting Wu, <font size="3" color="black">Chaoyan Huang</font>, Junyao Ma, Lihua Li, Tieyong Zeng, 'A method of phase retrieval based on implicit regularizer and BDCA', No. ZL202111365808.6, Nov. 2021, public No. CN114282348A, Apr. 5, 2022. </li>
+                </div>
+                <div class="prr"></div>
+
+                <div class="blog-post">
+                <h2><font color= #470bee>Grants and Sponsored Programs</font></h2>
+                <li> The Graduate Student Scientific Research Innovation Project of Jiangsu Province, KYCX20_0788 (¥15,000), Apr. 2020--Apr. 2022.</li>
+                </div>
+                <div class="prr"></div>
+
+                <div class="blog-post">
+                    <h2></h2>
+                </div>
+                
+            
+                
+
+              
+
+                     <!--   
+                <nav>
+                    <ul class="pagination">
+                        <li>
+                            <a href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li>
+                            <a href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>-->
+            </div>
+
+        
+            <!--
+            <div class="col-md-1"></div>
+            <div class="col-md-3" style="padding-top: 30px;">
+				<div class="row">
+                <ul class="list-group">
+                    <li class="list-group-item"><strong>CATEGORIES</strong></li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+				</div>
+				<div class="row">
+				<h3>Advertising</h3>
+				
+
+				</div>
+            </div>
+        -->
+        
+
+        </div>
+        
+
+
+    </div>
+
+    
+    
+    
+    <!--END HOME PAGE SECTION-->
+    <div class="footer-sec" style="margin-top: 0px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 foo-inner">
+                    &copy; Chaoyan Huang |  Last updated: 2022-08
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- END FOOTER SECTION -->
+    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME -->
+    <!-- CORE JQUERY -->
+    <script src="assets/js/jquery-1.11.1.js"></script>
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script src="assets/js/bootstrap.js"></script>
+
+</body>
+</html>
